@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: 'Poppins';
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            margin-top: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            gap: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: -30px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+        p {
+            font-weight: 500;
+            font-size: 12px;
+            margin-bottom: -10px;
+        }
+        input[type="text"] {
+            padding: 13px;
+            border: 1px solid #000000;
+            border-radius: 6px;
+            width: 300px;
+            box-sizing: border-box;
+            font-family: 'Poppins';
+            font-size: 13px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #116355;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Poppins';
+            font-weight: 500;
+            font-size: 13px;
+            margin-top: -23px;
+        }
+        button:hover {
+            background-color: #20463e;
+        }
+        #qrcode {
+            margin-top: 7px;
+            margin-bottom: 28px;
+            align-self: center !important;
+        }

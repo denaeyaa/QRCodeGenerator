@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="QR code generator">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/QR_Code_Generator.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's make your own QR code</h1>
+        <p>Enter your text or URL</p>
+        <input type="text" id="qrtext" placeholder="Text or URL">
+        <div id="qrcode"></div>
+        <button onclick="generateQRCode()">Generate QR Code</button>
+    </div>
+
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="script.js">
+    </script>
+</body>
+</html>
